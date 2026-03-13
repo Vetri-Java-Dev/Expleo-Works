@@ -5,9 +5,10 @@ import java.io.IOException;
 public class FileInputStreamExample {
 	public static void main(String[] args) throws IOException {
 		
-		FileInputStream input = null;
+		FileInputStream input=null;
 		
 		try {
+			
 			input=new FileInputStream("src/fileIO/input.txt");
 			
 			System.out.println("Data in the file : ");
