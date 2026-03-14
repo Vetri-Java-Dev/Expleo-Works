@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Wildcardgeneric {
 	
-	public static double sum(List<? super Integer> list) {
+	public static double sum(List<? extends Number> list) {
 		double sum=0;
 		
 		for(Number n : list) {
