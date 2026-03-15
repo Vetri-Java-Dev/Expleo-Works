@@ -1,9 +1,13 @@
 package generics;
 
-import java.lang.foreign.AddressLayout;
-
-import javax.net.ssl.ExtendedSSLSession;
-
 public class BoundedMethods {
-	//static<T extends Number> T addition(T a) 
+
+    public static <T extends Number> void print(T value) {
+        System.out.println("Value: " + value);
+    }
+
+    public static void main(String[] args) {
+        print(10);
+        print(20.5);
+    }
 }
