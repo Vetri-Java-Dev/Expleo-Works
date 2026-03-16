@@ -15,6 +15,7 @@ public class CorporateCipher {
 				
 			}
 		}
+		return new String(cipher);
 		
 	}
 	public static void main(String[] args) {
@@ -24,6 +25,6 @@ public class CorporateCipher {
 		System.out.print("Enter String : ");
 		String str=sc.nextLine();
 		
-		System.out.println("Encrypted string : "+);
+		System.out.println("Encrypted string : ");
 	}
 }
