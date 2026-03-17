@@ -7,7 +7,6 @@ import java.util.Set;
 public class HashMapDemo {
 	public static void main(String[] args) {
 		
-		
 		Map<String, Double> map=new HashMap<>();
 		
 		map.put("aa", 1.0);
@@ -21,7 +20,6 @@ public class HashMapDemo {
 		map.put("cc", 2.0);
 		
 		
-		
 		Set<Entry<String, Double>> set=map.entrySet();
 		
 		for(Map.Entry<String, Double> entry : set) {
@@ -29,5 +27,7 @@ public class HashMapDemo {
 			System.out.print("  Value : "+entry.getValue());
 			System.out.println("");
 		}
+		
+		
 	}
 }
