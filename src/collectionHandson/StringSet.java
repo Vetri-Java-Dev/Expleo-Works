@@ -29,6 +29,7 @@ public class StringSet {
 			result.append(value);
 			
 			System.out.println("");
+			
 		}
 		
 		System.out.println(result);

@@ -25,8 +25,7 @@ public class MarksMap {
 			stack.push(name);
 		}
 		
-		System.out.println("Student Marks above 75 in the stack:"
-				);
+		System.out.println("Student Marks above 75 in the stack:");
 		while(!stack.isEmpty()) {
 			
 			String name=stack.pop();
