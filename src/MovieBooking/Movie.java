@@ -6,12 +6,21 @@ import java.time.LocalDate;
 public class Movie {
 	
 	private String title;
+	
+	
+	public String getTitle() {
+		return title;
+	}
+	
+	public void setTitle(String title) {
+		this.title=title;
+	}
+	
 	private String description;
 	private int rating;
 	private String language;
 	private LocalDate releaseDate;
 	private String country;
-	private String genre;
 	
 	public Movie(String title, String description, int rating, String language, LocalDate releaseDate,
 			String country, String genre) {
@@ -24,13 +33,7 @@ public class Movie {
 		this.genre = genre;
 	}
 	
-	
-	public String getTitle() {
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}
+
 	public String getDescription() {
 		return description;
 	}
